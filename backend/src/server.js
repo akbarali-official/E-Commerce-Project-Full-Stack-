@@ -47,3 +47,4 @@ app.use((err, _req, res, _next) => {
 })
 
 app.listen(config.port, () => console.log(`🚀 API chal rahi hai: http://localhost:${config.port}`))
+module.exports = app;
