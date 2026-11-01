@@ -23,7 +23,9 @@ if (!loadDb()) {
 const app = express()
 app.use(cors({ origin: true }))
 app.use(express.json({ limit: '1mb' }))
-
+app.get('/', (req, res) => {
+  res.json({message: "E-Commerce Backend API is running successfully!"});
+});
 app.get('/api/health', (_req, res) => res.json({ ok: true }))
 app.use('/api/auth', authRoutes)
 app.use('/api/products', productRoutes)
@@ -34,11 +36,11 @@ app.use('/api', miscRoutes)
 app.use('/api', (_req, res) => res.status(404).json({ message: 'API route not found' }))
 
 // Production: frontend/dist ko isi server se serve karo
-const dist = path.join(__dirname, '..', '..', 'frontend', 'dist')
-if (fs.existsSync(dist)) {
-  app.use(express.static(dist))
-  app.get('*', (_req, res) => res.sendFile(path.join(dist, 'index.html')))
-}
+// const dist = path.join(__dirname, '..', '..', 'frontend', 'dist')
+// if (fs.existsSync(dist)) {
+  // app.use(express.static(dist))
+  // app.get('*', (_req, res) => res.sendFile(path.join(dist, 'index.html')))
+// }
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, _req, res, _next) => {
