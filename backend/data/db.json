@@ -1,0 +1,1095 @@
+{
+  "counters": {
+    "users": 1,
+    "products": 13,
+    "reviews": 78,
+    "orders": 0
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@shop.co",
+      "passwordHash": "$2a$10$EzRiUxHWcqQb6ZbvxOM4tea4PH8bN28GSxnhx/2tB/ecuWqpFfory",
+      "role": "admin",
+      "createdAt": "2026-11-01T17:47:28.872Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "T-shirt with Tape Details",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 120,
+      "oldPrice": null,
+      "rating": 4.5,
+      "reviewCount": 6,
+      "category": "T-shirts",
+      "style": "Casual",
+      "colors": [
+        "#000000",
+        "#3b82f6",
+        "#22c55e"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p1.png",
+      "images": [
+        "/images/detail-1.png",
+        "/images/detail-2.png",
+        "/images/detail-3.png",
+        "/images/detail-4.png"
+      ],
+      "stock": 100,
+      "sold": 90,
+      "createdAt": "2026-11-01T17:47:28.872Z"
+    },
+    {
+      "id": 2,
+      "name": "Skinny Fit Jeans",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 240,
+      "oldPrice": 260,
+      "rating": 3.5,
+      "reviewCount": 6,
+      "category": "Jeans",
+      "style": "Casual",
+      "colors": [
+        "#1d4ed8",
+        "#000000"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p2.png",
+      "images": [
+        "/images/p2.png"
+      ],
+      "stock": 100,
+      "sold": 120,
+      "createdAt": "2026-10-31T17:47:28.872Z"
+    },
+    {
+      "id": 3,
+      "name": "Checkered Shirt",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 180,
+      "oldPrice": null,
+      "rating": 4.5,
+      "reviewCount": 6,
+      "category": "Shirts",
+      "style": "Casual",
+      "colors": [
+        "#ef4444",
+        "#1d4ed8"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p3.png",
+      "images": [
+        "/images/p3.png"
+      ],
+      "stock": 100,
+      "sold": 110,
+      "createdAt": "2026-10-30T17:47:28.872Z"
+    },
+    {
+      "id": 4,
+      "name": "Sleeve Striped T-shirt",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 130,
+      "oldPrice": 160,
+      "rating": 4.5,
+      "reviewCount": 6,
+      "category": "T-shirts",
+      "style": "Casual",
+      "colors": [
+        "#f97316",
+        "#000000"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p4.png",
+      "images": [
+        "/images/p4.png"
+      ],
+      "stock": 100,
+      "sold": 100,
+      "createdAt": "2026-10-29T17:47:28.872Z"
+    },
+    {
+      "id": 5,
+      "name": "Vertical Striped Shirt",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 212,
+      "oldPrice": 232,
+      "rating": 5,
+      "reviewCount": 6,
+      "category": "Shirts",
+      "style": "Formal",
+      "colors": [
+        "#22c55e",
+        "#3b82f6"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p5.png",
+      "images": [
+        "/images/p5.png"
+      ],
+      "stock": 100,
+      "sold": 320,
+      "createdAt": "2026-10-28T17:47:28.872Z"
+    },
+    {
+      "id": 6,
+      "name": "Courage Graphic T-shirt",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 145,
+      "oldPrice": null,
+      "rating": 4,
+      "reviewCount": 6,
+      "category": "T-shirts",
+      "style": "Casual",
+      "colors": [
+        "#f97316",
+        "#000000"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p6.png",
+      "images": [
+        "/images/p6.png"
+      ],
+      "stock": 100,
+      "sold": 290,
+      "createdAt": "2026-10-27T17:47:28.872Z"
+    },
+    {
+      "id": 7,
+      "name": "Loose Fit Bermuda Shorts",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 80,
+      "oldPrice": null,
+      "rating": 3,
+      "reviewCount": 6,
+      "category": "Shorts",
+      "style": "Casual",
+      "colors": [
+        "#22c55e",
+        "#1d4ed8"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p7.png",
+      "images": [
+        "/images/p7.png"
+      ],
+      "stock": 100,
+      "sold": 260,
+      "createdAt": "2026-10-26T17:47:28.872Z"
+    },
+    {
+      "id": 8,
+      "name": "Faded Skinny Jeans",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 210,
+      "oldPrice": null,
+      "rating": 4.5,
+      "reviewCount": 6,
+      "category": "Jeans",
+      "style": "Casual",
+      "colors": [
+        "#3b82f6",
+        "#1d4ed8"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p8.png",
+      "images": [
+        "/images/p8.png"
+      ],
+      "stock": 100,
+      "sold": 240,
+      "createdAt": "2026-10-25T17:47:28.872Z"
+    },
+    {
+      "id": 9,
+      "name": "Loose Fit Bermuda Shorts",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 80,
+      "oldPrice": null,
+      "rating": 3,
+      "reviewCount": 6,
+      "category": "Shorts",
+      "style": "Gym",
+      "colors": [
+        "#3b82f6",
+        "#000000"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p9.png",
+      "images": [
+        "/images/p9.png"
+      ],
+      "stock": 100,
+      "sold": 60,
+      "createdAt": "2026-10-24T17:47:28.872Z"
+    },
+    {
+      "id": 10,
+      "name": "Polo with Contrast Trims",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 212,
+      "oldPrice": 242,
+      "rating": 4,
+      "reviewCount": 6,
+      "category": "T-shirts",
+      "style": "Formal",
+      "colors": [
+        "#000000",
+        "#ef4444"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p10.png",
+      "images": [
+        "/images/p10.png"
+      ],
+      "stock": 100,
+      "sold": 70,
+      "createdAt": "2026-10-23T17:47:28.872Z"
+    },
+    {
+      "id": 11,
+      "name": "Gradient Graphic T-shirt",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 145,
+      "oldPrice": null,
+      "rating": 3.5,
+      "reviewCount": 6,
+      "category": "T-shirts",
+      "style": "Party",
+      "colors": [
+        "#3b82f6",
+        "#a855f7"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p11.png",
+      "images": [
+        "/images/p11.png"
+      ],
+      "stock": 100,
+      "sold": 50,
+      "createdAt": "2026-10-22T17:47:28.872Z"
+    },
+    {
+      "id": 12,
+      "name": "Polo with Tipping Details",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 180,
+      "oldPrice": null,
+      "rating": 4.5,
+      "reviewCount": 6,
+      "category": "T-shirts",
+      "style": "Formal",
+      "colors": [
+        "#eab308",
+        "#000000"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p12.png",
+      "images": [
+        "/images/p12.png"
+      ],
+      "stock": 100,
+      "sold": 80,
+      "createdAt": "2026-10-21T17:47:28.872Z"
+    },
+    {
+      "id": 13,
+      "name": "Black Striped T-shirt",
+      "description": "This product is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+      "price": 120,
+      "oldPrice": 150,
+      "rating": 3.5,
+      "reviewCount": 6,
+      "category": "T-shirts",
+      "style": "Gym",
+      "colors": [
+        "#000000",
+        "#ec4899"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "image": "/images/p13.png",
+      "images": [
+        "/images/p13.png"
+      ],
+      "stock": 100,
+      "sold": 40,
+      "createdAt": "2026-10-20T17:47:28.872Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 4,
+      "productId": 1,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 5,
+      "productId": 1,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 6,
+      "productId": 1,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 7,
+      "productId": 2,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 8,
+      "productId": 2,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 9,
+      "productId": 2,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 10,
+      "productId": 2,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 11,
+      "productId": 2,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 12,
+      "productId": 2,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 13,
+      "productId": 3,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 14,
+      "productId": 3,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 15,
+      "productId": 3,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 16,
+      "productId": 3,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 17,
+      "productId": 3,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 18,
+      "productId": 3,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 19,
+      "productId": 4,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 20,
+      "productId": 4,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 21,
+      "productId": 4,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 22,
+      "productId": 4,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 23,
+      "productId": 4,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 24,
+      "productId": 4,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 25,
+      "productId": 5,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 26,
+      "productId": 5,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 27,
+      "productId": 5,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 28,
+      "productId": 5,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 29,
+      "productId": 5,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 30,
+      "productId": 5,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 31,
+      "productId": 6,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 32,
+      "productId": 6,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 33,
+      "productId": 6,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 34,
+      "productId": 6,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 35,
+      "productId": 6,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 36,
+      "productId": 6,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 37,
+      "productId": 7,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 38,
+      "productId": 7,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 39,
+      "productId": 7,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 40,
+      "productId": 7,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 41,
+      "productId": 7,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 42,
+      "productId": 7,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 43,
+      "productId": 8,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 44,
+      "productId": 8,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 45,
+      "productId": 8,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 46,
+      "productId": 8,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 47,
+      "productId": 8,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 48,
+      "productId": 8,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 49,
+      "productId": 9,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 50,
+      "productId": 9,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 51,
+      "productId": 9,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 52,
+      "productId": 9,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 53,
+      "productId": 9,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 54,
+      "productId": 9,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 55,
+      "productId": 10,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 56,
+      "productId": 10,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 57,
+      "productId": 10,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 58,
+      "productId": 10,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 59,
+      "productId": 10,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 60,
+      "productId": 10,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 61,
+      "productId": 11,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 62,
+      "productId": 11,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 63,
+      "productId": 11,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 64,
+      "productId": 11,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 65,
+      "productId": 11,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 66,
+      "productId": 11,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 67,
+      "productId": 12,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 68,
+      "productId": 12,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 69,
+      "productId": 12,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 70,
+      "productId": 12,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 71,
+      "productId": 12,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 72,
+      "productId": 12,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    },
+    {
+      "id": 73,
+      "productId": 13,
+      "userId": null,
+      "name": "Samantha D.",
+      "rating": 5,
+      "text": "Great quality fabric, fits exactly as described. Would definitely order again.",
+      "createdAt": "2026-10-12T17:47:28.872Z"
+    },
+    {
+      "id": 74,
+      "productId": 13,
+      "userId": null,
+      "name": "Alex M.",
+      "rating": 4,
+      "text": "Good product overall, delivery was a bit slow but the item itself is worth it.",
+      "createdAt": "2026-10-11T17:47:28.872Z"
+    },
+    {
+      "id": 75,
+      "productId": 13,
+      "userId": null,
+      "name": "Ethan R.",
+      "rating": 3.5,
+      "text": "Color is slightly different from the photos, but material quality is solid.",
+      "createdAt": "2026-10-10T17:47:28.872Z"
+    },
+    {
+      "id": 76,
+      "productId": 13,
+      "userId": null,
+      "name": "Olivia P.",
+      "rating": 4,
+      "text": "Comfortable and stylish, perfect for everyday wear.",
+      "createdAt": "2026-10-09T17:47:28.872Z"
+    },
+    {
+      "id": 77,
+      "productId": 13,
+      "userId": null,
+      "name": "Liam K.",
+      "rating": 4,
+      "text": "Great fit and comfortable material. Would recommend to friends.",
+      "createdAt": "2026-10-08T17:47:28.872Z"
+    },
+    {
+      "id": 78,
+      "productId": 13,
+      "userId": null,
+      "name": "Ava H.",
+      "rating": 4.5,
+      "text": "Exceeded my expectations, the quality is amazing for the price.",
+      "createdAt": "2026-10-07T17:47:28.872Z"
+    }
+  ],
+  "carts": {},
+  "orders": [],
+  "subscribers": []
+}
